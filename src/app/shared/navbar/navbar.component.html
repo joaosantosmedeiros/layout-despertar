@@ -7,20 +7,20 @@
   <!-- Links -->
   <div class="flex md:mr-12">
     <a routerLink="about"
-      class="text-[--gray-0] px-5 hover:bg-[--purple-2] text-center flex items-center transition-all rounded-md sm:text-lg">Sobre</a>
+      class="text-[--gray-0] px-5 text-center flex items-center transition-all rounded-md sm:text-lg hover:scale-105 hover:bg-[--purple-2] ">Sobre</a>
     <a routerLink="us"
-      class="hidden text-[--gray-0] px-5 hover:bg-[--purple-2] text-center items-center transition-all rounded-md md:text-lg md:flex">Quem
+      class="hidden text-[--gray-0] px-5 text-center items-center transition-all rounded-md md:text-lg md:flex hover:scale-105 hover:bg-[--purple-2]">Quem
       Somos</a>
-    <div class="flex items-center">
+    <div class="flex items-center hover:bg-[--purple-2] rounded-md">
       <button mat-button [matMenuTriggerFor]="menu" class="drop-menu flex md:hidden">
         <i class="ph ph-list text-3xl text-[--gray-0]"></i>
       </button>
       <mat-menu #menu="matMenu" class="md:hidden">
-        <a mat-menu-item routerLink="data">Dados</a>
-        <a mat-menu-item routerLink="news">Notícias</a>
-        <a mat-menu-item routerLink="repository">Repositórios</a>
-        <a mat-menu-item routerLink="events">Eventos</a>
-        <a mat-menu-item routerLink="courses">Cursos</a>
+        <a mat-menu-item routerLink="data" class="!text-[--purple-3] !hover:bg-[--purple-1]">Dados</a>
+        <a mat-menu-item routerLink="news" class="!text-[--purple-3] !hover:bg-[--purple-1]">Notícias</a>
+        <a mat-menu-item routerLink="repository" class="!text-[--purple-3] !hover:bg-[--purple-1]">Repositórios</a>
+        <a mat-menu-item routerLink="events" class="!text-[--purple-3] !hover:bg-[--purple-1]">Eventos</a>
+        <a mat-menu-item routerLink="courses" class="!text-[--purple-3] !hover:bg-[--purple-1]">Cursos</a>
       </mat-menu>
     </div>
   </div>

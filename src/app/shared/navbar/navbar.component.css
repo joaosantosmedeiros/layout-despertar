@@ -1,11 +1,11 @@
 .drop-menu {
-    color: white !important;
-    padding: 2em;
-    font-weight: 600;
+  color: white !important;
+  padding: 2em;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
-    .drop-menu {
-        display: none;
-    }
+  .drop-menu {
+    display: none;
+  }
 }
