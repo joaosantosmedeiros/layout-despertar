@@ -11,3 +11,11 @@
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+  --purple-1: #7d677e;
+  --purple-2: #4f2c4d;
+  --purple-3: #360b41;
+  --gray-0: #fafdea;
+  --gray-1: #ccc9aa;
+}

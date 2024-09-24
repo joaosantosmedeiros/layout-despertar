@@ -1,49 +1,58 @@
-<div class="bg-[#f5e3f0] items-center px-4 pt-16 flex flex-col md:flex-row md:gap-16 md:justify-center md:items-start" >
-    <!-- Notícias -->
-    <div class="flex flex-col items-center">
-        <h1 class="text-4xl font-extrabold text-[#48293f] mb-8 w-full max-w-[384px]">Notícias</h1>
-        <div class="flex flex-col gap-8 mb-12">
-            <div class="bg-white rounded-lg max-w-96">
-                <img [src]="'p1.jpg'" alt="Foto 1">
-                <div class="p-6">
-                    <p class="w-fit rounded-2xl px-4 py-1 bg-[#f0d0d0] text-[#862525] font-bold mb-4 text-sm">Tag</p>
-                    <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
-                        nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
-                        repellat.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg max-w-96">
-                <img [src]="'p2.jpg'" alt="Foto 2">
-                <div class="p-6">
-                    <p class="w-fit rounded-2xl px-4 py-1 bg-[#eff0d0] text-[#8f922f] font-bold mb-4 text-sm">Tag</p>
-                    <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
-                        nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
-                        repellat.</p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg max-w-96">
-                <img [src]="'p3.jpg'" alt="Foto 3">
-                <div class="p-6">
-                    <p class="w-fit rounded-2xl px-4 py-1 bg-[#d1f0d0] text-[#40a53c] font-bold mb-4 text-sm">Tag</p>
-                    <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
-                        nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
-                        repellat.</p>
-                </div>
-            </div>
+<div class="bg-[--gray-0] items-center px-4 pt-16 flex flex-col md:flex-row md:gap-16 md:justify-center md:items-start">
+  <!-- Notícias -->
+  <div class="flex flex-col items-center">
+    <h1 class="text-4xl !font-extrabold text-[--purple-3] mb-8 w-full max-w-[384px]">NOTÍCIAS</h1>
+    <div class="flex flex-col gap-8 mb-12">
+      <div class="bg-white rounded-lg max-w-96">
+        <img [src]="'p1.jpg'" alt="Foto 1">
+        <div class="p-6">
+          <p class="w-fit rounded-2xl px-4 py-1 bg-[#f0d0d0] text-[#862525] font-bold mb-4 text-sm">Tag</p>
+          <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
+            nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
+            repellat.</p>
         </div>
-    </div>
+      </div>
 
-    <!-- Categorias -->
-    <div class="bg-red-200 w-full rounded-md max-w-[384px] py-4 px-6 mb-8 md:h-fit md:w-60 md:mt-12 ">
-        <h2 class="font-bold text-red-950">Categorias</h2>
-        <div class="flex flex-col">
-            <a class="border-b-2 p-3 border-red-950 font-semibold text-red-600" routerLink="data">Dados</a>
-            <a class="border-b-2 p-3 border-red-950 font-semibold text-red-600" routerLink="news">Notícias</a>
-            <a class="border-b-2 p-3 border-red-950 font-semibold text-red-600" routerLink="repository">Repositórios</a>
-            <a class="border-b-2 p-3 border-red-950 font-semibold text-red-600" routerLink="events">Eventos</a>
-            <a class="border-b-2 p-3 border-red-950 font-semibold text-red-600" routerLink="courses">Cursos</a>
+      <div class="bg-white rounded-lg max-w-96">
+        <img [src]="'p2.jpg'" alt="Foto 2">
+        <div class="p-6">
+          <p class="w-fit rounded-2xl px-4 py-1 bg-[#eff0d0] text-[#8f922f] font-bold mb-4 text-sm">Tag</p>
+          <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
+            nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
+            repellat.</p>
         </div>
+      </div>
+
+      <div class="bg-white rounded-lg max-w-96">
+        <img [src]="'p3.jpg'" alt="Foto 3">
+        <div class="p-6">
+          <p class="w-fit rounded-2xl px-4 py-1 bg-[#d1f0d0] text-[#40a53c] font-bold mb-4 text-sm">Tag</p>
+          <p class="font-bold text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugiat
+            nam quaerat. Rem a numquam officiis magnam. Quod nostrum temporibus blanditiis, eligendi
+            repellat.</p>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- Categorias -->
+  <div class="bg-[--purple-1] w-full rounded-md max-w-[384px] py-4 px-0 mb-8 md:h-fit md:w-60 md:mt-12 ">
+    <h2 class="px-6 !font-bold text-[--purple-3]">CATEGORIAS</h2>
+    <div class="flex flex-col">
+      <a class="px-6 py-4 text-lg !font-semibold text-[--purple-2] hover:bg-[--gray-1] hover:scale-105 transition-all"
+        routerLink="data">Dados</a>
+      <hr class="mx-4 border-[--purple-3]"/>
+      <a class="px-6 py-4 text-lg !font-semibold text-[--purple-2] hover:bg-[--gray-1] hover:scale-105 transition-all"
+      routerLink="news">Notícias</a>
+      <hr class="mx-4 border-[--purple-3]"/>
+      <a class="px-6 py-4 text-lg !font-semibold text-[--purple-2] hover:bg-[--gray-1] hover:scale-105 transition-all"
+      routerLink="repository">Repositórios</a>
+      <hr class="mx-4 border-[--purple-3]"/>
+      <a class="px-6 py-4 text-lg !font-semibold text-[--purple-2] hover:bg-[--gray-1] hover:scale-105 transition-all"
+      routerLink="events">Eventos</a>
+      <hr class="mx-4 border-[--purple-3]"/>
+      <a class="px-6 py-4 text-lg !font-semibold text-[--purple-2] hover:bg-[--gray-1] hover:scale-105 transition-all"
+        routerLink="courses">Cursos</a>
+    </div>
+  </div>
 </div>
