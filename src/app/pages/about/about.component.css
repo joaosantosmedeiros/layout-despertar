@@ -1,0 +1,10 @@
+.mdc-button {
+  color: white;
+  font-weight: 700;
+  background-color: var(--purple-2);
+  transition: all .5s;
+}
+
+.mdc-button:hover {
+  transform: scale(105%);
+}
